@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1579737618 source:c:\programmingfolder\c++projects\wordladder\main.cpp
+	"WordLadder.h"
+	<iostream>
+
+1579671969 c:\programmingfolder\c++projects\wordladder\wordladder.h
+	<string>
+	<list>
+
+1579744673 source:c:\programmingfolder\c++projects\wordladder\wordladder.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<list>
+	<stack>
+	<queue>
+	"WordLadder.h"
+

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1582343166 source:c:\programmingfolder\c++projects\bal23trees\main.cpp
+	"Tree.h"
+	<iostream>
+
+1582781464 c:\programmingfolder\c++projects\bal23trees\tree.h
+	"Node.h"
+	<string>
+
+1582755021 c:\programmingfolder\c++projects\bal23trees\node.h
+	<string>
+
+1582755021 source:c:\programmingfolder\c++projects\bal23trees\node.cpp
+	"Node.h"
+	<iostream>
+
+1582755093 source:c:\programmingfolder\c++projects\bal23trees\tree.cpp
+	"Tree.h"
+	"Node.h"
+	<iostream>
+	<string>
+

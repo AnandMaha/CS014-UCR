@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1580181316 source:c:\programmingfolder\c++projects\maxheap\main.cpp
+	<iostream>
+	"Heap.h"
+
+1580181316 c:\programmingfolder\c++projects\maxheap\heap.h
+	"PrintJob.h"
+
+1580181316 c:\programmingfolder\c++projects\maxheap\printjob.h
+
+1580166500 source:c:\programmingfolder\c++projects\maxheap\printjob.cpp
+	"PrintJob.h"
+
+1580400709 source:c:\programmingfolder\c++projects\maxheap\heap.cpp
+	"Heap.h"
+	<iostream>
+

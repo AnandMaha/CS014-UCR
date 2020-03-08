@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1583540549 source:c:\programmingfolder\c++projects\graphprac\main.cpp
+	<cstring>
+	"Graph.h"
+
+1583540402 c:\programmingfolder\c++projects\graphprac\graph.h
+	<vector>
+	<list>
+	<queue>
+	<stack>
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<climits>
+	"Vertex.h"
+
+1583540063 c:\programmingfolder\c++projects\graphprac\vertex.h
+	<string>
+	<list>
+	<map>
+	<climits>
+
+1583541259 source:c:\programmingfolder\c++projects\graphprac\graph.cpp
+	"Graph.h"
+	<iostream>
+	<fstream>
+	<queue>
+

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1582520766 source:c:\programmingfolder\c++projects\hashtableprac\main.cpp
+	"HashTable.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1582520766 c:\programmingfolder\c++projects\hashtableprac\hashtable.h
+	<string>
+	<list>
+	<iostream>
+	"WordEntry.h"
+
+1582520766 c:\programmingfolder\c++projects\hashtableprac\wordentry.h
+	<string>
+	<vector>
+	<iostream>
+
+1582520766 source:c:\programmingfolder\c++projects\hashtableprac\wordentry.cpp
+	"WordEntry.h"
+

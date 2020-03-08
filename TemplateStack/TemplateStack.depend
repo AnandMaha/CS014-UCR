@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1580512197 source:c:\programmingfolder\c++projects\templatestack\main.cpp
+	<iostream>
+	<string>
+	"stack.h"
+	<stdexcept>
+
+1581005394 c:\programmingfolder\c++projects\templatestack\stack.h
+	<stdexcept>
+

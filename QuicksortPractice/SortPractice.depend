@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1583098284 source:c:\programmingfolder\c++projects\sortpractice\main.cpp
+	<iostream>
+	<time.h>
+	<algorithm>
+

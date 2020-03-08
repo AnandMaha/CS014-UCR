@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1579306420 source:c:\programmingfolder\c++projects\templateexceptiontest\main.cpp
+	<iostream>
+	<vector>
+	<cstdio>
+	<stdlib.h>
+	<time.h>
+	<stdexcept>
+

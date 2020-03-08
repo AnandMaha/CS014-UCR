@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1581610099 source:c:\programmingfolder\c++projects\arithmeticexpression\main.cpp
+	<iostream>
+	"arithmeticExpression.h"
+
+1581393403 c:\programmingfolder\c++projects\arithmeticexpression\arithmeticexpression.h
+	<iostream>
+	<cstdlib>
+
+1581610099 source:c:\programmingfolder\c++projects\arithmeticexpression\arithmeticexpression.cpp
+	"arithmeticExpression.h"
+	<string>
+	<stack>
+	<fstream>
+	<sstream>
+

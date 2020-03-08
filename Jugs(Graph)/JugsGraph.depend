@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1583645901 source:c:\programmingfolder\c++projects\jugsgraph\main.cpp
+	"Jug.h"
+	<iostream>
+
+1583645894 source:c:\programmingfolder\c++projects\jugsgraph\jug.cpp
+	"Jug.h"
+	<iostream>
+	<vector>
+	<string>
+	<list>
+	<queue>
+	<sstream>
+	<stack>
+	<climits>
+
+1583645320 c:\programmingfolder\c++projects\jugsgraph\jug.h
+	<string>
+	<vector>
+	<climits>
+

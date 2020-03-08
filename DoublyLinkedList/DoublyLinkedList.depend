@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1578598262 source:c:\users\anand\downloads\intlist.cpp
+	"IntList.h"
+	<iostream>
+
+1578598265 c:\users\anand\downloads\intlist.h
+	<iostream>
+
+1579190628 source:c:\programmingfolder\c++projects\doublylinkedlist\intlist.cpp
+	"IntList.h"
+	<iostream>
+
+1578618909 c:\programmingfolder\c++projects\doublylinkedlist\intlist.h
+	<iostream>
+
+1579190615 source:c:\programmingfolder\c++projects\doublylinkedlist\main.cpp
+	"IntList.h"
+	<iostream>
+

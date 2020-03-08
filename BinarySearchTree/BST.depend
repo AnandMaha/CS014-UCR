@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1580773558 source:c:\programmingfolder\c++projects\bst\bstree.cpp
+	"BSTree.h"
+	<string>
+	<iostream>
+
+1580701971 source:c:\programmingfolder\c++projects\bst\main.cpp
+	<iostream>
+	"BSTree.h"
+	<iostream>
+	<limits>
+	"BSTree.h"
+
+1580515581 source:c:\programmingfolder\c++projects\bst\node.cpp
+	"Node.h"
+	<string>
+
+1580518295 c:\programmingfolder\c++projects\bst\node.h
+	<string>
+
+1580773073 c:\programmingfolder\c++projects\bst\bstree.h
+	"Node.h"
+	<string>
+

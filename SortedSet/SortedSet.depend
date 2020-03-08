@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1574557159 source:c:\programmingfolder\c++projects\sortedset\intlist.cpp
+	"IntList.h"
+	<vector>
+	<algorithm>
+
+1574552989 c:\programmingfolder\c++projects\sortedset\intlist.h
+	<iostream>
+
+1574557717 source:c:\programmingfolder\c++projects\sortedset\main.cpp
+	<iostream>
+	"SortedSet.h"
+
+1574556726 c:\programmingfolder\c++projects\sortedset\sortedset.h
+	"IntList.h"
+
+1574557650 source:c:\programmingfolder\c++projects\sortedset\sortedset.cpp
+	"SortedSet.h"
+
