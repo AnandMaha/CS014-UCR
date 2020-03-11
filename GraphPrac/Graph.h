@@ -24,6 +24,8 @@ public:
   Graph(ifstream&);
   ~Graph();
   void output_graph(const string &);
+  int distance(const string& key);
+  string previous(const string& key);
   void bfs();
 };
 

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Graph::Graph() {}
+ Graph::Graph() {}
 
 Graph::Graph(ifstream& ifs) {
   int numNodes = 0;
@@ -42,18 +42,16 @@ Graph::Graph(ifstream& ifs) {
     }
     vertices.at(startIndex).neighbors.push_back(make_pair(tempIndex,tempWeight));
   }
+
+//    for(unsigned i = 0; i < vertices.size(); i++)
+//        cout << vertices.at(i).label << endl;
 }
 
-Graph::~Graph()
-{
-  while(vertices.size() != 0)
-  {
-    vertices.pop_back();
-  }
-}
+Graph::~Graph() {}
 
 void Graph::bfs()
 {
+//    cout << "bfs" << endl;
   vertices.at(0).distance = 0;
   //Vertex start = vertices.at(0);
   queue<Vertex*> q;
@@ -73,7 +71,7 @@ void Graph::bfs()
          vertices.at(it->first).prev = front;
          vertices.at(it->first).distance = 0;
          vertices.at(it->first).color = "GREY";
-         vertices.at(it->first).distance += vertices.at(it->first).prev->distance + 1;
+         vertices.at(it->first).distance += vertices.at(it->first).prev->distance + it->second;
          q.push(&vertices.at(it->first));
        }
 
@@ -82,6 +80,10 @@ void Graph::bfs()
     //cout <<vertices.at(0).color << endl;
     }
     //vertices.at(0).distance = 0;
+
+//      for(unsigned i = 0; i < vertices.size(); ++i) {
+//       cout << vertices.at(i).distance << endl;
+//    }
 }
 
 void Graph::output_graph(const string &outputFilename) {
@@ -118,5 +120,29 @@ void Graph::output_graph(ofstream & outFS, Vertex n)
       }
     }
   }
+}
+
+int Graph::distance(const string& key) {
+//    cout << "distance" << endl;
+//    cout << "key: " << key << endl;
+    for(unsigned i = 0; i < vertices.size(); i++) {
+        if(vertices.at(i).label == key) {
+//            cout << "Distance is: " << vertices.at(i).distance << endl;
+            return vertices.at(i).distance;
+        }
+    }
+    return -1;
+}
+
+string Graph::previous(const string& key) {
+//    cout << "previous" << endl;
+//    cout << "key: " << key << endl;
+    for(unsigned i = 0; i < vertices.size(); i++) {
+        if(vertices.at(i).label == key && i != 0) {
+//            cout << "Prev label is: " << vertices.at(i).prev->label << endl;
+            return vertices.at(i).prev->label;
+        }
+    }
+    return "";
 }
 
